@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset=utf-8>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+</head>
+<body>
+    <style>
+        ::-webkit-scrollbar {display: none;}
+        .nav {background: black;}
+    
+        body {
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-image: url("C:/Users/sonime1997/Pictures/IMG_20200820_235048.jpg");}
+        #jk {position: absolute;
+            box-sizing: border-box;
+             margin-left:0px;
+            display: none;
+        background-color: black;
+        height: 70px;
+        width: 200px;
+        z-index: 2}
+        a {text-decoration: none;
+           color: white;}
+        a:hover {text-decoration: none;}
+        li {list-style-type: none;}
+         .p {overflow: hidden;
+            margin-left: 0px;
+            margin-top: 50px;
+            width: 100%;
+              height: 500px;
+              border-radius: 30px;}
+            .top { margin-top: 50px;
+                   margin-right: 40px;
+                   height: 400px;
+                   width: 40%;
+                   background: white;
+                   border-radius: 30px 30px;
+                   overflow-y: scroll; }
+        .footer {width: 100%;
+                 height: 50px;
+                 margin-top: 40px;}
+        .expand{ width: 100%;
+                 height: 100%;}
+        img { margin: 20px;
+            width : 70%;
+             height:70%;
+            max-width: auto;
+             max-height: auto;
+             min-height: 20px;
+             min-width:20px;}
+        .pg-two {height: 100%;
+                 width: 100px;
+                 display:none;
+                 background: white;}
+            #un {
+                border-radius: 30px;
+                margin-top: 20px; 
+                display: none;
+                width: 1000px;
+                height: 600px;
+                overflow: hidden;}
+                .pg {margin-left: 30px;
+                     border-radius: 30px; 
+                    margin-right: 20px;
+                    width:40%;
+                    height:50%;
+                    background: white;
+                }
+                .sd {width: 100%;
+                     height:100%;}
+                h1 {color:white;
+                    margin-top: 20px;}
+                .date {color: white;}
+                .calc {margin-top: 30px;
+                       width:1000px;
+                       height: 600px;
+                       display:none;}
+                .lator {margin-left: 400px;
+                     border-radius: 40px; 
+                    margin-right: 20px;
+                    width:20%;
+                    height: 200px;
+                    background: white;}
+                input { margin-top: 10px;}
+    
+      </style>
+    <body>
+       <div class="nav">
+           <button class="btn btn-primary btn-lg menu">MENU</button>
+        </div>
+       <div id="jk">
+           <ul>
+               <li><a href="#forum">forums</a></li>
+               <li><a href="#hot">hot</a></li>
+               <li><a href="#latest">latest</a></li>
+           </ul>
+    
+       </div>
+       <div>
+           <h1 class="text-center">WELCOME TO MY STORE</h1>
+           <div class="date text-center" id="date">
+           </div>
+       </div>
+       <div class="container">
+           <div class="row 1 p" id="forum">
+              <div class="col-md-6 col-xs-6 one  col-sm-6 text-center top">
+                  <img  class="img-rounded" src="C:/Users/sonime1997/Pictures/IMG_20200820_234328.jpg">
+                  <p>kind  all the way add description if you want fuck i need to work on backend asap make donations</p>
+              </div>
+              <div class="col-md-6  col-xs-6  col-sm-6 two text-center top">
+                <img  class="img-rounded" src="C:/Users/sonime1997/Pictures/IMG_20200820_234328.jpg">
+                <p>kind  all the way add description if you want fuck i need to work on backend asap make donations</p>
+              </div>
+           </div>
+           <div class="row 2 p" id="hot">
+              <div class="col-md-6  col-xs-6 col-sm-6 three text-center top">
+                <img  class="img-rounded" src="C:/Users/sonime1997/Pictures/IMG_20200820_234328.jpg">
+                <p>kind  all the way add description if you want fuck i need to work on backend asap make donations</p>
+              </div>
+            <div class="col-md-6 col-xs-6 col-sm-6 four text-center top">
+                <img class="img-rounded" src="C:/Users/sonime1997/Pictures/IMG_20200820_234328.jpg">
+                <p>kind  all the way add description if you want fuck i need to work on backend asap make donations</p>
+            </div>
+            
+           </div>
+           <div class="row 3 p" id="latest">
+              <div class="col-md-6 col-xs-6  col-sm-6 five text-center top">
+                <img class="img-rounded" src="C:/Users/sonime1997/Pictures/IMG_20200820_234328.jpg">
+                <p>kind  all the way add description if you want fuck i need to work on backend asap make donations</p>
+              </div>
+              <div class="col-md-6 col-xs-6  col-sm-6 six text-center top">
+                <img class="img-rounded" src="C:/Users/sonime1997/Pictures/IMG_20200820_234328.jpg">
+                <p>kind  all the way add description if you want fuck i need to work on backend asap make donations</p>
+              </div>
+           </div>
+            
+           <div class="row" id="un">
+                    <div class="col-md-6 col-sm-6 col-xs-6 pg text-center k">
+                       <img src="C:/Users/sonime1997/Pictures/IMG_20200820_234500.jpg" class="img-rounded">
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 pg text-center l">
+                       <img src="C:/Users/sonime1997/Pictures/IMG_20200820_234500.jpg " class="img-rounded">
+                    </div>
+            </div>
+            <div class="row calc" id="calc">
+                <div class="col-md-6 col-sm-6 col-xs-6 lator text-center">
+                 <form>
+                   <label>CONVERT NAIRA TO DOLLAR</label>
+                    <input type="number"  id="amt" placeholder="enter an amount" class="form-control" min="0">
+                    <input type="number" placeholder="answer" id="ans" class="form-control" disabled>
+                 </form>
+                </div>
+            </div>
+        
+        </div>
+        <button  class="btn btn-primary nxt">NEXT</button>
+        <button class="btn btn-danger pami"> CALCULATOR </button>
+       <div class="footer bg-primary text-center">
+        <p>sonimee dev</p>
+       </div>
+      
+<script>
+    // JAVASCRIPT
+    var t = new Date();
+   document.getElementById("date").innerHTML =  t;
+   // calc
+   // working on calculator
+    var calc = document.getElementById("amt").value;
+    let salt = document.getElementById('ans').value;
+    function calculator () {
+        let sol = calc / 480
+        const salt = sol 
+    };
+
+   // so this is for toggleText function of jquery
+ jQuery.fn.extend(
+        {toggleText: function (a,b) {
+            var that = this;
+            if(that.text() != a && that.text() != b) {
+                that.text(a);
+            }
+            else if(that.text() == a) {that.text(b);}
+            else if(that.text() == b) {that.text(a);}
+            return that; 
+        }
+        }
+    )
+  $(document).ready(
+    //JQUERY
+    
+    function() {
+        $(".menu").click(
+            function() {
+                $("#jk").slideToggle("slow");
+                $("#un").fadeOut('fast');
+                $(".calc").hide();
+                $(".p").fadeIn();
+                $(".nxt").toggle()
+                }
+        );
+        $(".one").click(function() {
+            $(".one").toggleClass("expand");
+            $(".2,.3").fadeToggle("fast")
+            $(".nxt").toggle()
+        });
+        $(".two").click(function() {
+            $(".two").toggleClass("expand");
+            $(".2,.3,.one").fadeToggle("fast");
+            $(".nxt").toggle();
+        });
+        $(".three").click(function() {
+            $(".three").toggleClass("expand");
+            $(".1,.3").fadeToggle("fast")
+            $(".nxt").toggle();
+        });
+        $(".four").click(function() {
+            $(".four").toggleClass("expand");
+            $(".1,.3,.three").fadeToggle("fast");
+            $(".nxt").toggle();
+        });
+        $(".five").click(function() {
+            $(".five").toggleClass("expand");
+            $(".1,.2").fadeToggle("fast")
+            $(".nxt").toggle();
+        });
+        $(".six").click(function() {
+            $(".six").toggleClass("expand");
+            $(".1,.2,.five").fadeToggle("fast");
+            $(".nxt").toggle();
+        });
+        $("a").click(function() {
+            $("#jk").slideUp("fast")
+        
+        });
+        $(".nxt").click(function() {
+            $(".p").toggle("fast");
+            $("#un").fadeToggle("fast");
+            $(".menu").toggle();
+            $(".nxt").toggleText('NEXT','PREVIOUS');
+            $("ul").toggle();
+            $(".pami").toggle()
+        });
+        $(".k").click(
+            function() {
+                $(".l").fadeToggle("fast");
+                $(".k").toggleClass("sd");
+            }
+        );
+        $(".l").click(function() {
+            $(".k").fadeToggle("fast");
+            $(".l").toggleClass("sd")
+        });
+        $(".pami").click(function() {
+            $(".calc").fadeToggle("fast");
+            $(".un,.p").toggle();
+            $(".nxt").toggle();
+            $("#un").fadetoggle()
+        });
+
+   
+        
+       
+    }
+ )
+ 
+</script>
+</body>
+</html>
